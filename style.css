@@ -44,3 +44,9 @@ body {
 #autor {
     width: 100%;
 }
+
+#boton-cambiar-cita {
+    position: fixed;
+    bottom: 250px;
+    margin-bottom: 10px;
+}
