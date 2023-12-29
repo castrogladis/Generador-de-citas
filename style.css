@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("imagenes/libro.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.contenedor {
+    width: 80vw;
+    max-width: 600px;
+    height: 300px;
+    min-height: 280px;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid grey;
+}
+
+.contenedor-interno {
+    width: 80%;
+}
+
+#cita {
+    width: 100%;
+    padding: 10px;
+}
+
+#autor {
+    width: 100%;
+}
