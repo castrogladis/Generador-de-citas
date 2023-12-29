@@ -24,8 +24,8 @@ body {
 .contenedor {
     width: 80vw;
     max-width: 600px;
-    height: 300px;
-    min-height: 280px;
+    height: 400px;
+    min-height: 300px;
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 30px;
@@ -33,19 +33,28 @@ body {
 }
 
 .contenedor-interno {
-    width: 80%;
+    width: 90%;
 }
 
+#titulo {
+    width: 100%;
+    text-align: center;
+}
 #cita {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 10px;
+    margin: 10px;
 }
 
 #autor {
     width: 100%;
-}
-
-#boton-cambiar-cita {
-    position: fixed;
-    bottom: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
