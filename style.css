@@ -24,8 +24,8 @@ body {
 .contenedor {
     width: 80vw;
     max-width: 600px;
-    height: 400px;
-    min-height: 300px;
+    height: 300px;
+    min-height: 220px;
     background-color: antiquewhite;
     padding: 20px;
     border-radius: 30px;
@@ -34,12 +34,13 @@ body {
 
 .contenedor-interno {
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
 #titulo {
     width: 100%;
     text-align: center;
+    
 }
 #cita {
     width: 100%;
@@ -50,6 +51,8 @@ body {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 #autor {
@@ -59,4 +62,6 @@ body {
     justify-content: center;
     text-align: center;
     padding: 20px;
+    color: brown;
+    font-weight: 700;
 }
